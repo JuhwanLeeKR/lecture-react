@@ -1,8 +1,9 @@
-const tag = "[store]";
+const tag = '[store]';
 
 export default class Store {
   constructor(storage) {
-    if (!storage) throw "no storage";
+    console.log(tag);
+    if (!storage) throw 'no storage';
 
     this.storage = storage;
   }
